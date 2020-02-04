@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075C582DBDFBCBA5357EAE97 /* Pods_MAP19FirebaseAuthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865834F752452EC832BF6A0E /* Pods_MAP19FirebaseAuthTests.framework */; };
 		6367F67423E9614300CFDECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367F67323E9614300CFDECA /* AppDelegate.swift */; };
 		6367F67623E9614300CFDECA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367F67523E9614300CFDECA /* SceneDelegate.swift */; };
 		6367F67823E9614300CFDECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367F67723E9614300CFDECA /* ViewController.swift */; };
@@ -15,6 +16,11 @@
 		6367F68023E9614700CFDECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6367F67E23E9614700CFDECA /* LaunchScreen.storyboard */; };
 		6367F68B23E9614800CFDECA /* MAP19FirebaseAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367F68A23E9614800CFDECA /* MAP19FirebaseAuthTests.swift */; };
 		6367F69623E9614800CFDECA /* MAP19FirebaseAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367F69523E9614800CFDECA /* MAP19FirebaseAuthUITests.swift */; };
+		63E50F0623E9645B000C026D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63E50F0523E9645B000C026D /* GoogleService-Info.plist */; };
+		63E50F0823E9667E000C026D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E50F0723E9667E000C026D /* Item.swift */; };
+		63E50F0A23E97EA8000C026D /* ShoppingItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E50F0923E97EA8000C026D /* ShoppingItemsViewController.swift */; };
+		6DE9B30180A6108C6CE21912 /* Pods_MAP19FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6A8D518E5414352E5FC437 /* Pods_MAP19FirebaseAuth.framework */; };
+		9EC929CD7FCD8833EA415155 /* Pods_MAP19FirebaseAuth_MAP19FirebaseAuthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C207F4699101D9D2C26F58 /* Pods_MAP19FirebaseAuth_MAP19FirebaseAuthUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		472F25F2AC196097EF4231C7 /* Pods-MAP19FirebaseAuthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAP19FirebaseAuthTests.release.xcconfig"; path = "Target Support Files/Pods-MAP19FirebaseAuthTests/Pods-MAP19FirebaseAuthTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C6A8D518E5414352E5FC437 /* Pods_MAP19FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAP19FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0C3F7DBDF1CCC332AE8BEA /* Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests.release.xcconfig"; path = "Target Support Files/Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests/Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		534F0C4642DC87A668DE612E /* Pods-MAP19FirebaseAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAP19FirebaseAuth.debug.xcconfig"; path = "Target Support Files/Pods-MAP19FirebaseAuth/Pods-MAP19FirebaseAuth.debug.xcconfig"; sourceTree = "<group>"; };
 		6367F67023E9614300CFDECA /* MAP19FirebaseAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAP19FirebaseAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6367F67323E9614300CFDECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6367F67523E9614300CFDECA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,14 @@
 		6367F69123E9614800CFDECA /* MAP19FirebaseAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAP19FirebaseAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6367F69523E9614800CFDECA /* MAP19FirebaseAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAP19FirebaseAuthUITests.swift; sourceTree = "<group>"; };
 		6367F69723E9614800CFDECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E50F0523E9645B000C026D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		63E50F0723E9667E000C026D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		63E50F0923E97EA8000C026D /* ShoppingItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemsViewController.swift; sourceTree = "<group>"; };
+		66C207F4699101D9D2C26F58 /* Pods_MAP19FirebaseAuth_MAP19FirebaseAuthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAP19FirebaseAuth_MAP19FirebaseAuthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		865834F752452EC832BF6A0E /* Pods_MAP19FirebaseAuthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAP19FirebaseAuthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FB884D2A7FB8A84558C95E /* Pods-MAP19FirebaseAuthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAP19FirebaseAuthTests.debug.xcconfig"; path = "Target Support Files/Pods-MAP19FirebaseAuthTests/Pods-MAP19FirebaseAuthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2F7F2C981BBFAF25553CA66 /* Pods-MAP19FirebaseAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAP19FirebaseAuth.release.xcconfig"; path = "Target Support Files/Pods-MAP19FirebaseAuth/Pods-MAP19FirebaseAuth.release.xcconfig"; sourceTree = "<group>"; };
+		F6AFE504EF7F1491A4F6CF9D /* Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests.debug.xcconfig"; path = "Target Support Files/Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests/Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE9B30180A6108C6CE21912 /* Pods_MAP19FirebaseAuth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075C582DBDFBCBA5357EAE97 /* Pods_MAP19FirebaseAuthTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC929CD7FCD8833EA415155 /* Pods_MAP19FirebaseAuth_MAP19FirebaseAuthUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				6367F68923E9614800CFDECA /* MAP19FirebaseAuthTests */,
 				6367F69423E9614800CFDECA /* MAP19FirebaseAuthUITests */,
 				6367F67123E9614300CFDECA /* Products */,
+				BB9B2B96241F88178B9FBBEC /* Pods */,
+				C8B09C0EB88BFE2C9D582F6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +125,13 @@
 				6367F67323E9614300CFDECA /* AppDelegate.swift */,
 				6367F67523E9614300CFDECA /* SceneDelegate.swift */,
 				6367F67723E9614300CFDECA /* ViewController.swift */,
+				63E50F0923E97EA8000C026D /* ShoppingItemsViewController.swift */,
 				6367F67923E9614300CFDECA /* Main.storyboard */,
 				6367F67C23E9614700CFDECA /* Assets.xcassets */,
 				6367F67E23E9614700CFDECA /* LaunchScreen.storyboard */,
 				6367F68123E9614700CFDECA /* Info.plist */,
+				63E50F0523E9645B000C026D /* GoogleService-Info.plist */,
+				63E50F0723E9667E000C026D /* Item.swift */,
 			);
 			path = MAP19FirebaseAuth;
 			sourceTree = "<group>";
@@ -128,6 +154,29 @@
 			path = MAP19FirebaseAuthUITests;
 			sourceTree = "<group>";
 		};
+		BB9B2B96241F88178B9FBBEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				534F0C4642DC87A668DE612E /* Pods-MAP19FirebaseAuth.debug.xcconfig */,
+				A2F7F2C981BBFAF25553CA66 /* Pods-MAP19FirebaseAuth.release.xcconfig */,
+				F6AFE504EF7F1491A4F6CF9D /* Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests.debug.xcconfig */,
+				4D0C3F7DBDF1CCC332AE8BEA /* Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests.release.xcconfig */,
+				89FB884D2A7FB8A84558C95E /* Pods-MAP19FirebaseAuthTests.debug.xcconfig */,
+				472F25F2AC196097EF4231C7 /* Pods-MAP19FirebaseAuthTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8B09C0EB88BFE2C9D582F6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6A8D518E5414352E5FC437 /* Pods_MAP19FirebaseAuth.framework */,
+				66C207F4699101D9D2C26F58 /* Pods_MAP19FirebaseAuth_MAP19FirebaseAuthUITests.framework */,
+				865834F752452EC832BF6A0E /* Pods_MAP19FirebaseAuthTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6367F69A23E9614800CFDECA /* Build configuration list for PBXNativeTarget "MAP19FirebaseAuth" */;
 			buildPhases = (
+				988BDAE4BD7F1E00E54F83FE /* [CP] Check Pods Manifest.lock */,
 				6367F66C23E9614300CFDECA /* Sources */,
 				6367F66D23E9614300CFDECA /* Frameworks */,
 				6367F66E23E9614300CFDECA /* Resources */,
+				6D1BD5CFF4D71DB0C27BD215 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6367F69D23E9614800CFDECA /* Build configuration list for PBXNativeTarget "MAP19FirebaseAuthTests" */;
 			buildPhases = (
+				70710B37C907E71A047C084F /* [CP] Check Pods Manifest.lock */,
 				6367F68223E9614700CFDECA /* Sources */,
 				6367F68323E9614700CFDECA /* Frameworks */,
 				6367F68423E9614700CFDECA /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6367F6A023E9614800CFDECA /* Build configuration list for PBXNativeTarget "MAP19FirebaseAuthUITests" */;
 			buildPhases = (
+				36B662C43F595F340646763D /* [CP] Check Pods Manifest.lock */,
 				6367F68D23E9614800CFDECA /* Sources */,
 				6367F68E23E9614800CFDECA /* Frameworks */,
 				6367F68F23E9614800CFDECA /* Resources */,
+				613E90DE9B0FAF5EB0B96C6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6367F68023E9614700CFDECA /* LaunchScreen.storyboard in Resources */,
+				63E50F0623E9645B000C026D /* GoogleService-Info.plist in Resources */,
 				6367F67D23E9614700CFDECA /* Assets.xcassets in Resources */,
 				6367F67B23E9614300CFDECA /* Main.storyboard in Resources */,
 			);
@@ -254,14 +309,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36B662C43F595F340646763D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		613E90DE9B0FAF5EB0B96C6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests/Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests/Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests/Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D1BD5CFF4D71DB0C27BD215 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAP19FirebaseAuth/Pods-MAP19FirebaseAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAP19FirebaseAuth/Pods-MAP19FirebaseAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAP19FirebaseAuth/Pods-MAP19FirebaseAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70710B37C907E71A047C084F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAP19FirebaseAuthTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		988BDAE4BD7F1E00E54F83FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAP19FirebaseAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6367F66C23E9614300CFDECA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E50F0823E9667E000C026D /* Item.swift in Sources */,
 				6367F67823E9614300CFDECA /* ViewController.swift in Sources */,
 				6367F67423E9614300CFDECA /* AppDelegate.swift in Sources */,
 				6367F67623E9614300CFDECA /* SceneDelegate.swift in Sources */,
+				63E50F0A23E97EA8000C026D /* ShoppingItemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +592,7 @@
 		};
 		6367F69B23E9614800CFDECA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534F0C4642DC87A668DE612E /* Pods-MAP19FirebaseAuth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +610,7 @@
 		};
 		6367F69C23E9614800CFDECA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F7F2C981BBFAF25553CA66 /* Pods-MAP19FirebaseAuth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +628,7 @@
 		};
 		6367F69E23E9614800CFDECA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89FB884D2A7FB8A84558C95E /* Pods-MAP19FirebaseAuthTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +650,7 @@
 		};
 		6367F69F23E9614800CFDECA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472F25F2AC196097EF4231C7 /* Pods-MAP19FirebaseAuthTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +672,7 @@
 		};
 		6367F6A123E9614800CFDECA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AFE504EF7F1491A4F6CF9D /* Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +692,7 @@
 		};
 		6367F6A223E9614800CFDECA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0C3F7DBDF1CCC332AE8BEA /* Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

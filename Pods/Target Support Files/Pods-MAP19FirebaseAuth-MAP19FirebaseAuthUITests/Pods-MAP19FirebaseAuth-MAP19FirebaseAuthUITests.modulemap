@@ -1,0 +1,6 @@
+framework module Pods_MAP19FirebaseAuth_MAP19FirebaseAuthUITests {
+  umbrella header "Pods-MAP19FirebaseAuth-MAP19FirebaseAuthUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

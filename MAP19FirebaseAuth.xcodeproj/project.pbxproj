@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6367F67423E9614300CFDECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367F67323E9614300CFDECA /* AppDelegate.swift */; };
+		6367F67623E9614300CFDECA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367F67523E9614300CFDECA /* SceneDelegate.swift */; };
+		6367F67823E9614300CFDECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367F67723E9614300CFDECA /* ViewController.swift */; };
+		6367F67B23E9614300CFDECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6367F67923E9614300CFDECA /* Main.storyboard */; };
+		6367F67D23E9614700CFDECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6367F67C23E9614700CFDECA /* Assets.xcassets */; };
+		6367F68023E9614700CFDECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6367F67E23E9614700CFDECA /* LaunchScreen.storyboard */; };
+		6367F68B23E9614800CFDECA /* MAP19FirebaseAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367F68A23E9614800CFDECA /* MAP19FirebaseAuthTests.swift */; };
+		6367F69623E9614800CFDECA /* MAP19FirebaseAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367F69523E9614800CFDECA /* MAP19FirebaseAuthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6367F68723E9614700CFDECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6367F66823E9614300CFDECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6367F66F23E9614300CFDECA;
+			remoteInfo = MAP19FirebaseAuth;
+		};
+		6367F69223E9614800CFDECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6367F66823E9614300CFDECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6367F66F23E9614300CFDECA;
+			remoteInfo = MAP19FirebaseAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6367F67023E9614300CFDECA /* MAP19FirebaseAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAP19FirebaseAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6367F67323E9614300CFDECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6367F67523E9614300CFDECA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6367F67723E9614300CFDECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6367F67A23E9614300CFDECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6367F67C23E9614700CFDECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6367F67F23E9614700CFDECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6367F68123E9614700CFDECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6367F68623E9614700CFDECA /* MAP19FirebaseAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAP19FirebaseAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6367F68A23E9614800CFDECA /* MAP19FirebaseAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAP19FirebaseAuthTests.swift; sourceTree = "<group>"; };
+		6367F68C23E9614800CFDECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6367F69123E9614800CFDECA /* MAP19FirebaseAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAP19FirebaseAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6367F69523E9614800CFDECA /* MAP19FirebaseAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAP19FirebaseAuthUITests.swift; sourceTree = "<group>"; };
+		6367F69723E9614800CFDECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6367F66D23E9614300CFDECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6367F68323E9614700CFDECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6367F68E23E9614800CFDECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6367F66723E9614300CFDECA = {
+			isa = PBXGroup;
+			children = (
+				6367F67223E9614300CFDECA /* MAP19FirebaseAuth */,
+				6367F68923E9614800CFDECA /* MAP19FirebaseAuthTests */,
+				6367F69423E9614800CFDECA /* MAP19FirebaseAuthUITests */,
+				6367F67123E9614300CFDECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6367F67123E9614300CFDECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6367F67023E9614300CFDECA /* MAP19FirebaseAuth.app */,
+				6367F68623E9614700CFDECA /* MAP19FirebaseAuthTests.xctest */,
+				6367F69123E9614800CFDECA /* MAP19FirebaseAuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6367F67223E9614300CFDECA /* MAP19FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				6367F67323E9614300CFDECA /* AppDelegate.swift */,
+				6367F67523E9614300CFDECA /* SceneDelegate.swift */,
+				6367F67723E9614300CFDECA /* ViewController.swift */,
+				6367F67923E9614300CFDECA /* Main.storyboard */,
+				6367F67C23E9614700CFDECA /* Assets.xcassets */,
+				6367F67E23E9614700CFDECA /* LaunchScreen.storyboard */,
+				6367F68123E9614700CFDECA /* Info.plist */,
+			);
+			path = MAP19FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		6367F68923E9614800CFDECA /* MAP19FirebaseAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				6367F68A23E9614800CFDECA /* MAP19FirebaseAuthTests.swift */,
+				6367F68C23E9614800CFDECA /* Info.plist */,
+			);
+			path = MAP19FirebaseAuthTests;
+			sourceTree = "<group>";
+		};
+		6367F69423E9614800CFDECA /* MAP19FirebaseAuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6367F69523E9614800CFDECA /* MAP19FirebaseAuthUITests.swift */,
+				6367F69723E9614800CFDECA /* Info.plist */,
+			);
+			path = MAP19FirebaseAuthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6367F66F23E9614300CFDECA /* MAP19FirebaseAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6367F69A23E9614800CFDECA /* Build configuration list for PBXNativeTarget "MAP19FirebaseAuth" */;
+			buildPhases = (
+				6367F66C23E9614300CFDECA /* Sources */,
+				6367F66D23E9614300CFDECA /* Frameworks */,
+				6367F66E23E9614300CFDECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAP19FirebaseAuth;
+			productName = MAP19FirebaseAuth;
+			productReference = 6367F67023E9614300CFDECA /* MAP19FirebaseAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6367F68523E9614700CFDECA /* MAP19FirebaseAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6367F69D23E9614800CFDECA /* Build configuration list for PBXNativeTarget "MAP19FirebaseAuthTests" */;
+			buildPhases = (
+				6367F68223E9614700CFDECA /* Sources */,
+				6367F68323E9614700CFDECA /* Frameworks */,
+				6367F68423E9614700CFDECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6367F68823E9614700CFDECA /* PBXTargetDependency */,
+			);
+			name = MAP19FirebaseAuthTests;
+			productName = MAP19FirebaseAuthTests;
+			productReference = 6367F68623E9614700CFDECA /* MAP19FirebaseAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6367F69023E9614800CFDECA /* MAP19FirebaseAuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6367F6A023E9614800CFDECA /* Build configuration list for PBXNativeTarget "MAP19FirebaseAuthUITests" */;
+			buildPhases = (
+				6367F68D23E9614800CFDECA /* Sources */,
+				6367F68E23E9614800CFDECA /* Frameworks */,
+				6367F68F23E9614800CFDECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6367F69323E9614800CFDECA /* PBXTargetDependency */,
+			);
+			name = MAP19FirebaseAuthUITests;
+			productName = MAP19FirebaseAuthUITests;
+			productReference = 6367F69123E9614800CFDECA /* MAP19FirebaseAuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6367F66823E9614300CFDECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "David Svensson";
+				TargetAttributes = {
+					6367F66F23E9614300CFDECA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6367F68523E9614700CFDECA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6367F66F23E9614300CFDECA;
+					};
+					6367F69023E9614800CFDECA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6367F66F23E9614300CFDECA;
+					};
+				};
+			};
+			buildConfigurationList = 6367F66B23E9614300CFDECA /* Build configuration list for PBXProject "MAP19FirebaseAuth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6367F66723E9614300CFDECA;
+			productRefGroup = 6367F67123E9614300CFDECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6367F66F23E9614300CFDECA /* MAP19FirebaseAuth */,
+				6367F68523E9614700CFDECA /* MAP19FirebaseAuthTests */,
+				6367F69023E9614800CFDECA /* MAP19FirebaseAuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6367F66E23E9614300CFDECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6367F68023E9614700CFDECA /* LaunchScreen.storyboard in Resources */,
+				6367F67D23E9614700CFDECA /* Assets.xcassets in Resources */,
+				6367F67B23E9614300CFDECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6367F68423E9614700CFDECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6367F68F23E9614800CFDECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6367F66C23E9614300CFDECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6367F67823E9614300CFDECA /* ViewController.swift in Sources */,
+				6367F67423E9614300CFDECA /* AppDelegate.swift in Sources */,
+				6367F67623E9614300CFDECA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6367F68223E9614700CFDECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6367F68B23E9614800CFDECA /* MAP19FirebaseAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6367F68D23E9614800CFDECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6367F69623E9614800CFDECA /* MAP19FirebaseAuthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6367F68823E9614700CFDECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6367F66F23E9614300CFDECA /* MAP19FirebaseAuth */;
+			targetProxy = 6367F68723E9614700CFDECA /* PBXContainerItemProxy */;
+		};
+		6367F69323E9614800CFDECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6367F66F23E9614300CFDECA /* MAP19FirebaseAuth */;
+			targetProxy = 6367F69223E9614800CFDECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6367F67923E9614300CFDECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6367F67A23E9614300CFDECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6367F67E23E9614700CFDECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6367F67F23E9614700CFDECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6367F69823E9614800CFDECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6367F69923E9614800CFDECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6367F69B23E9614800CFDECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MAP19FirebaseAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MAP19FirebaseAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6367F69C23E9614800CFDECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MAP19FirebaseAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MAP19FirebaseAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6367F69E23E9614800CFDECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MAP19FirebaseAuthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MAP19FirebaseAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAP19FirebaseAuth.app/MAP19FirebaseAuth";
+			};
+			name = Debug;
+		};
+		6367F69F23E9614800CFDECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MAP19FirebaseAuthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MAP19FirebaseAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAP19FirebaseAuth.app/MAP19FirebaseAuth";
+			};
+			name = Release;
+		};
+		6367F6A123E9614800CFDECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MAP19FirebaseAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MAP19FirebaseAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MAP19FirebaseAuth;
+			};
+			name = Debug;
+		};
+		6367F6A223E9614800CFDECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MAP19FirebaseAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MAP19FirebaseAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MAP19FirebaseAuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6367F66B23E9614300CFDECA /* Build configuration list for PBXProject "MAP19FirebaseAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6367F69823E9614800CFDECA /* Debug */,
+				6367F69923E9614800CFDECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6367F69A23E9614800CFDECA /* Build configuration list for PBXNativeTarget "MAP19FirebaseAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6367F69B23E9614800CFDECA /* Debug */,
+				6367F69C23E9614800CFDECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6367F69D23E9614800CFDECA /* Build configuration list for PBXNativeTarget "MAP19FirebaseAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6367F69E23E9614800CFDECA /* Debug */,
+				6367F69F23E9614800CFDECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6367F6A023E9614800CFDECA /* Build configuration list for PBXNativeTarget "MAP19FirebaseAuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6367F6A123E9614800CFDECA /* Debug */,
+				6367F6A223E9614800CFDECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6367F66823E9614300CFDECA /* Project object */;
+}
